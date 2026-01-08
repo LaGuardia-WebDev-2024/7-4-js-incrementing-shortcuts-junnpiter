@@ -33,6 +33,10 @@ draw = function(){
   ellipse(rightX+62, 100, 70, 60);
   ellipse(rightX-62, 100, 70, 60);
   
+  // anim 
+  rightX -= 1;
+  leftX += 1;
+  sunRadius += 1;
 }
 
 
